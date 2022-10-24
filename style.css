@@ -1,5 +1,14 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(92, 92, 255, 1) 38%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
 .hero__container {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,7 +89,7 @@
   display: flex;
 }
 
-h1[align='center'] {
+h1[align="center"] {
   margin-top: 40px;
 }
 /* modal container */
